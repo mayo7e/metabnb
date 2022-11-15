@@ -14,7 +14,15 @@ body{
  
 }
 
-
+.header,
+.footer{
+    min-width:250px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top:1em;
+}
 
 
 /* 
@@ -23,13 +31,7 @@ header--start-
 ============== */
 
 
-    .header{
-        min-width:250px;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  
     
     nav a {
       text-decoration: none;
@@ -60,7 +62,7 @@ header--start-
 
       color: #FFFFFF;
      }
-     li{
+     .headerli{
       font-family: 'Red Rose';
       font-weight: 400;
       font-size: 1.25rem;
@@ -77,8 +79,69 @@ header--start-
 header--end-
 ============== */
 
+
+/* 
+===============
+footer-start-
+=============== */
+
+
+.footer{
+  background: #1D1D1E;
+}
+.footer h3{
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  
+  color: #FFFFFF;
+}
+
+
+.footer div {
+
+   margin-bottom: 2.5em;
+
+}
+.footer div a{
+  text-decoration: none;
+  display: block;
+  margin-top: .85em;
+  color: #F1F3F9;
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+.sm_medias{
+  display:flex;
+  justify-content:space-around;
+  padding:1em 0;
+  margin:0;
+}
+
+.footer p{
+  
+  color: #F1F3F9;
+}
+
+
+/* 
+==============
+footer--end-
+============== */
+
+/* 
+=================
+media-query-start-
+================= */
+
 @media(min-width:769px)and (max-width:1000px){
-  ul{
+  .headerul{
     gap: 1em;
   }
 }
@@ -90,7 +153,7 @@ header--end-
     align-items: center;
   }
   
-  ul{
+  .header ul{
     display:flex;
    
     gap:2.625em
@@ -101,3 +164,7 @@ header--end-
 
 
 
+/* 
+===============
+media-query-end-
+=============== */
