@@ -1,10 +1,12 @@
 
-
+import Home from "./components/home/home"
+// import PlaceToStay from "./components/placetostay/placetostay"
 
 function App() {
   return (
-    <div className="App">
-      yolo boys
+    <div>
+     <Home />
+     {/* <PlaceToStay /> */}
     </div>
   );
 }
