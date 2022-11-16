@@ -368,12 +368,34 @@ modal--start-
 
 .modal{
   position: fixed;
+  width: 70%;
   top: 50%;
   left: 50%;
+ 
   transform: translate(-50%, -50%);
   background: #fff;
-  padding:50px;
+  padding:1.85em .5em;
+ 
+  border-radius: 16px;
   z-index: 1000;
+}
+
+.modal a{
+  display: flex;
+
+
+  justify-content:space-between;
+  align-items: center;
+  padding: 12px 20px;
+  
+
+  background: #F8F9FA;
+  border: 1px solid #CFD8DC;
+  border-radius: 12px;
+}
+
+.modal a img{
+  object-fit: contain;
 }
 
 .overlay{
@@ -386,6 +408,15 @@ modal--start-
     z-index: 1000;
 }
 
+.modal_header{
+  display:flex;
+  /* gap: 10em; */
+  justify-content: space-around;
+}
+
+.modal_header img{
+  object-fit: contain;
+}
 
 
 
