@@ -1,12 +1,16 @@
 
 
 import Logo from "../assets/logo.png"
+import Modal from "./modal"
+
+import React, {useState} from "react"
 
 import {Link} from "react-router-dom"
 
 
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false)
 
 
     return (
@@ -25,10 +29,13 @@ function Header() {
                         </ul>
                     </nav>
 
-                   <Link  target="_blank" to="/modal" ><a className="header_action" >Connect wallet</a></Link>
-                   
-                   
+      
+                   <button className="header_action"  onClick={()=> setIsOpen(true)} >Connect wallet</button>
+                    <Modal open={isOpen} onClose={()=> setIsOpen(false)} >
+                        hipster baby
+                    </Modal>
                   
+                    
             
             </div>
       </div>
