@@ -8,7 +8,7 @@ function Footer() {
     return (
       <div className="footer" >
                
-      <div>
+      <div className="footer_community" >
           <h3>Community</h3>
           <ul>
               <li><a href="0#">Nft</a></li>
@@ -18,7 +18,7 @@ function Footer() {
       
           </ul>
       </div>
-      <div>
+      <div className="footer_places" >
           <h3>Places</h3>
           <ul>
               <li><a href="0#">Castle</a></li>
@@ -28,7 +28,7 @@ function Footer() {
       
           </ul>
       </div>
-      <div>
+      <div className="footer_about" >
           <h3>About us</h3>
           <ul>
               <li><a href="0#">Road Maps</a></li>
@@ -39,7 +39,7 @@ function Footer() {
           </ul>
       </div>
 
-      <div>
+      <div className="brand_info" >
         <img alt="brand's logo" src={Group} />
         <div className="sm_medias" >
           <img alt="Facebook's logo" src={Fb} />
@@ -47,7 +47,8 @@ function Footer() {
           <img alt="Twitter's logo" src={Twitter} />
 
         </div>
-        <p>&copy; 2022 Metabnb</p>
+
+        <p className="copyright" >&copy; 2022 Metabnb</p>
       </div>
       
 </div>
