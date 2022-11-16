@@ -1,6 +1,7 @@
 
 
 import Logo from "../assets/logo.png"
+
 import Modal from "./modal"
 
 import React, {useState} from "react"
@@ -28,11 +29,13 @@ function Header() {
                     
                         </ul>
                     </nav>
-
+                    {/* onClick={onClose} */}
       
                    <button className="header_action"  onClick={()=> setIsOpen(true)} >Connect wallet</button>
                     <Modal open={isOpen} onClose={()=> setIsOpen(false)} >
-                        hipster baby
+                      <div>
+                        
+                      </div>
                     </Modal>
                   
                     
