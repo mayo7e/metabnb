@@ -19,10 +19,10 @@ const Modal = ({open,children, onClose}) => {
               <hr />
 
                 <h3>Choose your preferred wallet</h3>
-                <a href="#0"><img src={Meta}/> <img src={DownChevron}/></a>
+                <a href="#0"><img alt="metamask logo" src={Meta}/> <img alt="down chevron logo" src={DownChevron}/></a>
                 <br />
                 <br />
-                <a href="#0"><img src={WalletConnect}/> <img src={DownChevron} /></a>
+                <a href="#0"><img alt="walletconnect logo" src={WalletConnect}/> <img  alt="down chevron logo" src={DownChevron} /></a>
                 
              </div>
     </>

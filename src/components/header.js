@@ -21,7 +21,8 @@ function Header() {
 
                     <nav>
                         <ul>
-                            <li><a href="0#">Home</a></li>
+                           
+                            <li><Link target="_blank" to="/"><span>Home</span></Link></li>
                             <li><Link target="_blank" to="/placetostay"><span>Place to stay</span></Link></li>
                             <li><a href="0#">NFTs</a></li>
                             <li><a href="0#">Community</a></li>

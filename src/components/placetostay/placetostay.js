@@ -7,7 +7,7 @@ import Footer from "../footer"
 function PlaceToStay() {
     return (
       <div>
-       <Header />
+       <Header></Header>
        <Footer />
 
       </div>
