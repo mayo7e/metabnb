@@ -337,8 +337,6 @@ card--start-
 .card{
   width:100%;
 
- 
-
     min-width:250px;
     display:flex;
     flex-direction: column;
@@ -411,7 +409,7 @@ modal--start-
   display: flex;
 
 
-  justify-content:space-between;
+  justify-content:space-around;
   align-items: center;
   padding: 12px 20px;
   
@@ -539,16 +537,18 @@ form button{
     flex-direction: row;
     flex-wrap: wrap;
     margin:0 auto;
-    gap:1.2em;
+    gap:1em;
 
     
 }
+
+
 .card_components{
   flex-basis: 180px;
   flex-grow: 1;
   
 width: 292px;
-height: 372px;
+height: 330px;
 left: 948px;
 top: 0px;
 
@@ -617,7 +617,7 @@ border-radius: 15px;
   flex-grow: 1;
   
 width: 292px;
-height: 372px;
+height: 352px;
 left: 948px;
 top: 0px;
 
