@@ -16,14 +16,14 @@ function PlaceToStay() {
      <div className="placesToStay App container " > 
        <Header />
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          
-          <li></li>
-          <li></li>
+          <li>Resturant</li>
+          <li>Cottage</li>
+          <li>Castle</li>
+          <li>Fantast coty</li>
+          <li>Beach</li>
+          <li>Carbins</li>
+          <li>Off-grid</li>
+          <li>Farm</li>
         </ul>
         <Card />
         <Card />
