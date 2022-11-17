@@ -21,6 +21,7 @@ function Home() {
        <div className="container" >
 
           <div className="section_01" >
+            <div className="section_01_info">
             <h1>Rent a <span>Place</span> away from <span>Home</span>  in the <span>Metaverse</span> </h1>
            <p> we provide you access to luxury and affordable houses in the
              metaverse, get a chance to turn your
@@ -29,6 +30,7 @@ function Home() {
                 <input type="text" />
                 <button>Search</button>
               </form>
+              </div>
               <div>
               <img alt="four smaller pictures of  bnb in the mataverse" src={MainImg} />
 
@@ -55,12 +57,12 @@ function Home() {
               <div className="img_logo" >
                   <h2>Metabmb MFTs</h2>
                   <p>Discover our NFT gift cards collection. Loyal customers gets amazing gift
-                     cards which are traded as NFTs. These NFTs gives our cutomer access to loads
-                      of our exclusive services.</p>
+                     cards which are traded as NFTs. <div>These NFTs gives our cutomer access to loads
+                      of our exclusive services.</div></p>
               
+              <a href="0#">Learn more</a>
               </div>
               <img alt="#" src={Frames} />
-              <a href="0#">Learn more</a>
 
           </div>
 
