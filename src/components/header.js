@@ -23,7 +23,7 @@ function Header() {
                     <nav>
                         <ul>
                             <li><a href="0#">Home</a></li>
-                            <Link target="_blank" to="/placetostay"><li>Place to stay</li></Link>
+                            <li><Link target="_blank" to="/placetostay"><span>Place to stay</span></Link></li>
                             <li><a href="0#">NFTs</a></li>
                             <li><a href="0#">Community</a></li>
                     

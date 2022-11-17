@@ -6,9 +6,9 @@ import Twitter from "../assets/twitter.png"
 
 function Footer() {
     return (
-      <div className="footer" >
+      <div className="footer ftr" >
                
-      <div className="footer_community" >
+      <div className="footer_community cm" >
           <h3>Community</h3>
           <ul>
               <li><a href="0#">Nft</a></li>
@@ -18,7 +18,7 @@ function Footer() {
       
           </ul>
       </div>
-      <div className="footer_places" >
+      <div className="footer_places places" >
           <h3>Places</h3>
           <ul>
               <li><a href="0#">Castle</a></li>
@@ -28,8 +28,8 @@ function Footer() {
       
           </ul>
       </div>
-      <div className="footer_about" >
-          <h3>About us</h3>
+      <div className="footer_about about" >
+          <h3 className="about">About us</h3>
           <ul>
               <li><a href="0#">Road Maps</a></li>
               <li><a href="0#">Creators</a></li>
@@ -39,7 +39,7 @@ function Footer() {
           </ul>
       </div>
 
-      <div className="brand_info" >
+      <div className="brand_info info" >
         <img alt="brand's logo" src={Group} />
         <div className="sm_medias" >
           <img alt="Facebook's logo" src={Fb} />
